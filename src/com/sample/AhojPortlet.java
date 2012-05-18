@@ -14,7 +14,7 @@ public class AhojPortlet extends GenericPortlet{
 	protected void doView(RenderRequest req, RenderResponse resp) throws PortletException, IOException {
 		resp.setContentType("text/html");
 		PrintWriter out=resp.getWriter();
-		out.println("Ahoj lidi.");
+		out.println("Ahoj svete.");
 	}
 
 }
